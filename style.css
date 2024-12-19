@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(141, 140, 140);
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    text-align: center;
+    width: fit-content;
+    margin-top: 80px;
+    margin-left: 37%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px;
+
+}
+#inputbox{
+    text-align: center;
+    font-size: large;
+    border:gray solid 2px;
+    border-radius: 5px;
+    height: 16px;
+    margin-bottom: 18px;
+}
+#l1{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#submit{
+    margin-top:17px ;
+    padding: 8px 15px;
+    background-color: rgb(39, 39, 39);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    transition: background-color 0.3s;
+
+}
+#submit:hover{
+    background-color: rgb(56, 56, 63);
+}
+#result{
+    font-size: 20px;
+}
